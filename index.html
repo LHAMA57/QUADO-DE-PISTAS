@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+    <title>Quadro de Pistas</title>
+</head>
+<body>
+
+    <main>
+
+        <div class="passo ativo" id="passo-0">
+            <img src="img/imagem-1.jpeg" alt="">
+            <p>Bem vindo ao Quadro de Pistas. Uma nova morte abalou a cidade… e apenas um detetive poderá descobrir o que realmente aconteceu. Escolha quem assumirá o caso.</p>
+            <button class="btn-proximo" data-proximo="1">Detetive Bea. Intuitiva, social, conversa com suspeitos até fazê-los cair em contradição.</button>
+            <button class="btn-proximo" data-proximo="2">Detetive Charles. Lógico, frio, metódico. Percebe detalhes que ninguém vê.</button>
+        </div>
+
+
+        <div class="passo" id="passo-1">
+            <p>Durante um entardecer, Detetive Bea recebe uma ligação sobre um assasinato que acabara de acontecer</p>
+            <button class="btn-proximo" data-proximo="3">Continuar</button>
+            
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Durante um entardecer, Detetive Charles recebe uma ligação sobre um assasinato que acabara de acontecer</p>
+            <button class="btn-proximo" data-proximo="3">continuar</button>
+            
+        </div>
+
+
+        <div class="passo" id="passo-3">
+            <img src="img/imagem-2.jpeg" alt="">
+            <p>James Shezluz, patriarca da família, foi encontrado morto em seu escritório numa noite chuvosa.</p>
+            <button class="btn-proximo" data-proximo="4">continuar</button>
+            
+        </div>
+
+
+        <div class="passo" id="passo-4">
+            <p>Mr. James Shezluz era o patriarca da familia Shezluz, detentora de grande poder e infuência a gerações. Sem grandes inimigos, James foi encontrado morto em seu escritório. No local foi encontrado algumas pistas sobre o assasinato.</p>
+            <button class="btn-proximo" data-proximo="5">Continuar para as pistas do caso</button>
+            
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img src="img/imagem-3.jpeg" alt="">
+            <p>Pistas iniciais: Escritório revirado; Documento faltando; Relógio antigo SUMIU; caixa lacrada sumiu; Janela dos fundos semi-aberta; Relógio de parede parado às 23h17; Investigar a peça restaurada; pegadas e marcas próximas à porta dos fundos.</p>
+            <button class="btn-proximo" data-proximo="6"> Examinar o cofre e os documentos sumidos</button>
+            <button class="btn-proximo" data-proximo="7">Verificar o artefato quebrado e a janela dos fundos</button>
+            <button class="btn-proximo" data-proximo="8"> Investigar pegadas e marcas próximas à porta dos fundos</button>
+            <button class="btn-proximo" data-proximo="9"> Investigar o sumiso do relógio e peça restaurada</button>
+
+        </div>
+
+
+
+        <div class="passo" id="passo-6">
+            <p>Você encontra lacunas na documentação. O sistema mostra acesso recente — e a ÚNICA pessoa com senha era Carrotye.</p>
+            <button class="btn-proximo" data-proximo="10">INVESTIGAR SUSPEITA: CARROTYE</button> 
+            <button class="btn-proximo" data-proximo="5">voltar</button>
+
+        </div>
+        <div class="passo" id="passo-10">
+            <p>HISTÓRIA DE CARROTYE (suspeita nº 1). Carrotye sempre foi a arquivista da família, não amante. Sabia mais sobre os segredos da mansão do que qualquer herdeiro. Na noite da morte, ela foi vista saindo do escritório com uma caixa lacrada que ninguém sabia que existia. Dias depois, documentos sumiram dos arquivos aos quais SOMENTE ela tinha senha. Quando perguntada, responde friamente: > “O patriarca me pediu para organizar documentos confidenciais. Apenas cumpri ordens.”</p>
+            <button class="btn-proximo" data-proximo="14"> Pressioná-la para revelar o conteúdo da caixa</button> 
+            <button class="btn-proximo" data-proximo="15">Verificar os arquivos e ver o que falta</button>
+
+        </div>
+        <div class="passo" id="passo-14">
+            <p>Carrotye segura a caixa como se fosse frágil. Depois de hesitar, abre. Lá dentro: um gravador antigo, com a última conversa de James.</p>
+            <button class="btn-proximo" data-proximo="21">continuar para conclusão</button> 
+            
+        </div>
+        <div class="passo" id="passo-15">
+            <p>O detetive examina a sala de arquivos: Documentos arrancados às pressas. Lacres rompidos. Uma etiqueta policial removida recentemente. Carrotye entra desesperada: "Eu juro que não fui eu... Posso provar! Veja o que James me entregou." Ela abre a caixa - o gravador aparece.</p>
+            <button class="btn-proximo" data-proximo="21">continuar para conclusão</button> 
+            
+        </div>
+        <div class="passo" id="passo-21">
+            <p>Na gravação, a voz de James: "Eu não vou entregar, Vladimir! Isso morre comigo" Seguido da frase gelada: "Então vai morrer hoje."</p>
+            <button class="btn-proximo" data-proximo="24">continuar</button> 
+            
+        </div>
+
+
+
+
+
+        <div class="passo" id="passo-7">
+            <p>O artefato antigo tinha um compartimento secreto — agora vazio.Mas algo mais chama atenção: - A janela dos fundos estava destrancada. - Testemunhas dizem que Nilla foi vista entrando pelos fundos na noite anterior.</p>
+            <button class="btn-proximo" data-proximo="11">INVESTIGAR SUSPEITA: NILLA</button>
+            <button class="btn-proximo" data-proximo="5">voltar</button>
+            
+        </div>
+        <div class="passo" id="passo-11">
+            <p>HISTÓRIA DE NILLA (suspeita nº 2) Sempre elegante e enigmática, Nilla ainda visitava a mansão do ex-marido sob o pretexto de “buscar documentos”. Mas: Ela foi a última vista entrando pelos fundos. Saiu chorando, segurando algo escondido no casaco. Descobriu uma traição de James antes do divórcio. E ninguém entende por que continuava voltando à casa do homem que jurava odiar. Ela diz: > “Ele me devia respostas. Só isso.”</p>
+            <button class="btn-proximo" data-proximo="16">Perguntar o que ela levava escondido</button>
+            <button class="btn-proximo" data-proximo="17"> Checar câmeras e vizinhos sobre sua presença</button>
+            
+        </div>
+        <div class="passo" id="passo-16">
+            <p>Quando o detetive pergunta, Nilla respira fundo e finalmente tira de dentro do casaco um envelope antigo. "É... o documento da minha mãe. James guardava isso no cofre para me chantagear. Eu só vim pegar de volta..." O documento é real. Mas ao analisá-lo, o detetive percebe algo estranho: Um pequeno resíduo de cola e papel rasgado grudado no envelope - exatamente igual ao dos lacres de arquivo da mansão. Nilla, assustada, diz: "Eu não tirei isso de arquivo nenhum... Quando peguei o documento, ele já estava assim." Isso significa que alguém mexeu nos arquivos e colocou o documento dela junto, talvez para fazê-la parecer culpado. E quem tinha acesso ao arquivo esa noite? Carrotye - a administradora dos documentos da mansão.</p>
+            <button class="btn-proximo" data-proximo="10">INVESTIGAR SUSPEITA: CARROTYE</button>
+            
+        </div>
+        <div class="passo" id="passo-17">
+            <p>As câmeras da rua mostram Nilla chegando chorando, mas - detalhe crucial - ela sai muito mais rápido do que a polícia registrou, e em um horário que não bate com o momento exato da morte. Um vizinho, que cuidava do jardim no portão lateral, confirma: "Ela saiu correndo como se tivesse visto um fantasma. Não parecia alguém fugindo de um crime... parecia alguém com medo."" Ao analisar o horário, você encontra o choque: quinze minutos depois da saída dela, o sistema interno de segurança é desligado remotamente, e nesse intervalo, a única pessoa registrada entrando pelos fundos é Vladimir, que alegou ter chegado "mais cedo para ajudar".</p>
+            <button class="btn-proximo" data-proximo="12">INVESTIGAR SUSPEITO: VLADIMIR</button>
+            
+        </div>
+
+
+
+
+
+        <div class="passo" id="passo-8">
+            <p>Pegadas masculinas e marcas de sola policial. O primeiro a chegar foi:  O policial Vladimir.Mas… ele chegou rápido demais.</p>
+            <button class="btn-proximo" data-proximo="12">INVESTIGAR SUSPEITO: VLADIMIR</button>
+            <button class="btn-proximo" data-proximo="5">voltar</button>
+            
+        </div>
+        <div class="passo" id="passo-12">
+            <p>HISTÓRIA DE VLADIMIR (suspeito nº 3) Vladimir foi o primeiro policial na cena do crime. Rápido demais. Colegas estranharam porque ele chegou antes mesmo da equipe ser acionada formalmente. Ele tinha um conflito pessoal com James — a ex-mulher de James tinha histórico com ele. O mais estranho: provas que inocentariam Nilla sumiram enquanto estavam sob guarda dele. E James aparentemente tinha acesso ilimitado à mansão, muito antes de Nilla voltar. Ele diz:  “Eu só cumpri meu trabalho.”</p>
+            <button class="btn-proximo" data-proximo="18">Interrogá-lo sobre a chegada antecipada</button>
+            
+        </div>
+        <div class="passo" id="passo-18">
+            <p>O detetive começa: "Vladimir, ninguém chega antes da própria equipe. Como você soube tão cedo?" Vladimir tenta soar confiante: "O Frank me ligou. Disse que tinha ouvido um barulho estranho no escritório e achou melhor eu vir imediatamente." O detetive estranha: Frank não tem histórico de ligar para polícia. Frank não estava na mansão nesse horário segundo as primeiras testemunhas. Vladimir hesita ao explicar: "Ele... ele disse que estava restaurando uma peça e ouviu uma briga."</p>
+            <button class="btn-proximo" data-proximo="22">continuar para conclusão</button>
+            
+        </div>
+        <div class="passo" id="passo-22">
+            <p>O detetive percebe a contradição: Frank nunca restaurava nada dentro da mansão, sempre no próprio ateliê. A fala parece inventada às pressas. Mas, decidi investigar.</p>
+            <button class="btn-proximo" data-proximo="13">INVESTIGAR SUSPEITO: FRANK</button>
+            
+        </div>
+
+
+
+
+
+        <div class="passo" id="passo-9">
+            <p>Frank sabia da raridade do relógio e sobre seu paradeiro, alem de ter restalrado uma peça anteriormente</p>
+            <button class="btn-proximo" data-proximo="13">INVESTIGAR SUSPEITO: FRANK</button>
+            <button class="btn-proximo" data-proximo="5">voltar</button>
+            
+        </div>
+        <div class="passo" id="passo-13">
+            <p>Frank, irmão de James, sempre foi o mais discreto dos dois - um restaurador de antiguidades que vivia longe dos holofotes da família. Ele não buscava luxo, mas era o único que sabia identificar peças raras... como o relógio antigo que sumiu do escritório do patriarca na noite do crime. Dias antes, Frank havia sido visto avaliando discretamente objetos da mansão, alegando apenas "curiosidade histórica". Mas o mais estranho foi descobrirem que ele recebera uma ligação misteriosa do patriarca pouco antes da morte - uma conversa que Frank insiste em dizer que "não lembra". Agora, ninguém sabe se ele esteve ali como especialista... ou como alguém que encontrou algo valioso demais para deixar para trás.</p>
+            <button class="btn-proximo" data-proximo="19">Interregola sobre o relógio desaparecido</button>
+            <button class="btn-proximo" data-proximo="20">Interrogalo sobre a peça restaurada</button>
+            
+        </div>
+        <div class="passo" id="passo-19">
+            <p>Frank parece inquieto quando você menciona o relógio antigo que sumiu do escritório de James. Ele dá respostas vagas, diz que “nem sabia que James ainda tinha aquilo” e tenta mudar de assunto. Mas, enquanto vasculha a bancada dele, você encontra uma pequena embalagem anti-umidade igual às usadas em cofres de armazenamento de arquivos. Ao pressioná-lo, Frank finalmente admite: > “Tá… eu mexi nas coisas dele, sim. Mas não levei relógio nenhum. Eu só… encontrei um pendrive dentro de uma gaveta quebrada. Achei que fosse algo sobre as peças que restaurei pra ele.”</p>
+            <button class="btn-proximo" data-proximo="23">Ouvir a gravação do pendrive</button>
+            
+        </div>
+        <div class="passo" id="passo-20">
+            <p>Quando você pergunta sobre a peça antiga que ele restaurou — aquela que foi mexida pouco antes do crime — Frank tenta explicar como se fosse um detalhe técnico irrelevante. Só que, ao checar o recibo de serviço, você percebe que a peça foi devolvida no mesmo dia da morte de James. Confrontado, Frank suspira e revela: > “Tá bom… dentro da peça, havia um compartimento falso. James mandou eu abrir. Ele queria esconder ou proteger algo, não sei. Quando achei estranho, guardei o pendrive comigo. Não sabia se era perigoso…”</p>
+            <button class="btn-proximo" data-proximo="23">Ouvir a gravação do pendrive</button>
+            
+        </div>
+        <div class="passo" id="passo-23">
+            <p>Na gravação, a voz de James: "Eu não vou entregar, Vladimir! Isso morre comigo." Seguido da frase gelada: "Então vai morrer hoje."</p>
+            <button class="btn-proximo" data-proximo="24">continuar</button>
+            
+        </div>
+
+
+
+
+
+        <div class="passo" id="passo-24">
+            <img src="img/imagem-4.jpeg" alt="">
+            <p>Vladimir, o policial encarregado do caso, era o responsável pela morte de James Shezluz — tentando apagar um erro antigo que James mantivera guardado como um fantasma preso no cofre da família. Ele manipulou provas. Tentou incriminar Frank. Aproveitou-se da vulnerabilidade de Nilla. E contou com o silêncio involuntário de Carrotye. Mas não teve como escapar da verdade.</p>
+            <button class="btn-proximo" data-proximo="25">continuar</button>
+            
+        </div>
+        <div class="passo" id="passo-25">
+            <p>Vladimir foi preso. Frank recuperou a honra — e revelou que James o chamara dias antes apenas para ajudá-lo a esconder algumas peças raras da família. Carrotye devolveu a caixa aos Shezluz. E Nilla, pela primeira vez, contou exatamente o que viu naquela noite. James morreu protegido por um último gesto de coragem: guardar o segredo que destruiria o policial mais poderoso da cidade. Mas a verdade não morreu com ele. Estava trancada naquela caixa.</p>
+            <button class="btn-proximo" data-proximo="26">continuar</button>
+            
+        </div>
+        <div class="passo" id="passo-26">
+            <img src="img/imagem-5.jpeg" alt="">
+            <p>As peças finalmente se encaixaram. O labirinto de suspeitas desabou. E, no centro de tudo, só uma pessoa conseguiu ver o que ninguém mais viu: você! Com isso, o caso Shezluz deixa de ser um mistério e se torna algo maior: uma verdade revelada pela única mente que não foi enganada. O assassino foi identificado. E você é quem conseguiu chegar até ele.</p>
+            <button class="btn-proximo" data-proximo="0">Voltar para o início</button>
+            
+        </div>
+
+
+
+        
+    </main>
+    <script src="script.js"></script>
+
+</body>
+</html>
+
