@@ -17,11 +17,11 @@ button {
 }
 
 .passo {
-    display: nome;
+    display: none;
 }
 
 .passo.ativo {
-    display: block;
+    display:block;
 }
 
 main {
